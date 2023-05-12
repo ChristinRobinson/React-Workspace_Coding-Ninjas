@@ -1,8 +1,10 @@
 import React from 'react';
 
 // Imports & Exports
-
 import ImportsAndExports from './01 Imports & Exports';
+
+// JSX Example
+import JSXExamples from './02 JSX';
 
 // Class Component Example
 class ClassComponentExample extends React.Component {
@@ -44,6 +46,10 @@ const App = () => {
 				<u>Imports and Exports</u>
 			</h1>
 			<ImportsAndExports />
+			<hr />
+
+			<h1>JSX Example</h1>
+			<JSXExamples />
 		</div>
 	);
 };
